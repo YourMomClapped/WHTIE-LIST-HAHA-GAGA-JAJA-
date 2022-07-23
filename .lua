@@ -60,7 +60,7 @@ function notif()
     Title = "Password",     
     Text = "The key is Des",
     Button1 = "Alr",
-    Duration = 20
+    Duration = 10
     })
     end
 
