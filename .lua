@@ -6,7 +6,7 @@ OrionLib:MakeNotification({
 	Name = "Annon Hub",
 	Content = "Annon Hub: Welcome to the whitelist system.",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 10
 })
 
 
