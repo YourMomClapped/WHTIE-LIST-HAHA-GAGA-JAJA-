@@ -1,4 +1,15 @@
-local windows = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Synapse-Library-OBFUSCATED-/main/Source.lua"))()
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+
+OrionLib:MakeNotification({
+	Name = "Annon Hub",
+	Content = "Annon Hub: Welcome to thewhitelist system "..Player.Name..".",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+local windows = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourMomClapped/Synapse-library/main/.lua"))()
 local win = windows:Create({
     Title = "Annon ",
     Game = "Whitelist System"
@@ -60,7 +71,7 @@ function notif()
     Title = "Password",     
     Text = "The key is Des",
     Button1 = "Alr",
-    Duration = 10
+    Duration = 20
     })
     end
 
