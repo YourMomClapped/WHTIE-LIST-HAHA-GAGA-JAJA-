@@ -12,10 +12,11 @@ OrionLib:MakeNotification({
 
 
 
+
 function notiff()
     OrionLib:MakeNotification({
         Name = "Annon Hub",
-        Content = "X out of this GUI, in 10 seconds Annon Hub will be loaded",
+        Content = "Exit out of this GUI, in 10 seconds Annon Hub will be loaded",
         Image = "rbxassetid://4483345998",
         Time = 10
     })
@@ -92,14 +93,15 @@ end
 
 
 
--- FUNCTION notification
-function notif()
-    game:GetService("StarterGui"):SetCore("SendNotification",{     
-    Title = "Password",     
-    Text = "The key is Des",
-    Button1 = "Alr",
-    Duration = 20
-    })
+
+
+    function notif()
+        OrionLib:MakeNotification({
+            Name = "Notification!",
+            Content = "Password: The key is 'Des'",
+            Image = "rbxassetid://4483345998",
+            Time = 10
+        })
     end
 
 
@@ -144,4 +146,4 @@ function MakeAnnon()
     local Player = game.Players.LocalPlayer
 function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 
-_G.SendWebHook("https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr", "**"..Player.Name.."** has executed Annon Hub")
+_G.SendWebHook("https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr", "**"..Player.Name.."** has executed ***Annon Hub***")
