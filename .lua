@@ -4,10 +4,25 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 OrionLib:MakeNotification({
 	Name = "Annon Hub",
-	Content = "Annon Hub: Welcome to thewhitelist system "..Player.Name..".",
+	Content = "Annon Hub: Welcome to the whitelist system "..Player.Name..".",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
+
+
+
+
+function notiff()
+    OrionLib:MakeNotification({
+        Name = "Annon Hub",
+        Content = "X out of this GUI, in 10 seconds Annon Hub will be loaded",
+        Image = "rbxassetid://4483345998",
+        Time = 10
+    })
+end
+
+
+
 
 local windows = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourMomClapped/Synapse-library/main/.lua"))()
 local win = windows:Create({
@@ -30,6 +45,8 @@ local Key = win:NewTab({
     Title = "Whitelist"
 })
 
+
+
 Key:Button({
     Title = "Check Key",
     Callback = function()
@@ -50,10 +67,18 @@ Key:Button({
     Title = "Check Key",
     Callback = function()
         if _G.KeyInput == _G.Key then
+            notiff()
+            wait(5)
             MakeAnnon()
         end
 end
 })
+
+
+
+
+
+
 
 
 
