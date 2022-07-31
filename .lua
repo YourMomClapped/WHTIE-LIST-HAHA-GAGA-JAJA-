@@ -5,7 +5,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 OrionLib:MakeNotification({
 	Name = "Annon Hub",
 	Content = "Annon Hub: Welcome to the whitelist system.",
-	Image = "rbxassetid://4483345998",
+	Image = "rbxassetid://9411304331",
 	Time = 10
 })
 
@@ -18,7 +18,7 @@ function notiff()
     OrionLib:MakeNotification({
         Name = "Annon Hub",
         Content = "Exit out of this GUI, in 10 seconds Annon Hub will be loaded",
-        Image = "rbxassetid://4483345998",
+        Image = "rbxassetid://3944676352",
         Time = 10
     })
 end
