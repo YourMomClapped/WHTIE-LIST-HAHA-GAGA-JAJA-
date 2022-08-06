@@ -5,7 +5,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 OrionLib:MakeNotification({
 	Name = "Annon Hub",
 	Content = "Annon Hub: Welcome to the whitelist system.",
-	Image = "rbxassetid://9411304331",
+	Image = "rbxassetid://10492485314",
 	Time = 10
 })
 
@@ -185,6 +185,10 @@ function MakeAnnon()
 
 
 
+
+
+    _G.SendWebHook("https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr", "https://cdn.discordapp.com/attachments/998558647019913236/1005357754162090004/photo_62588edb73be46e64eb93606-1659737825622.png")
+	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 
 	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 	
