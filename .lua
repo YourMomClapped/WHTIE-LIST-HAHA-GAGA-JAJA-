@@ -187,18 +187,18 @@ function MakeAnnon()
 
 
 
-    _G.SendWebHook("https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr", "https://cdn.discordapp.com/attachments/1000753220508979320/1005665021696684063/photo_62588edb73be46e64eb93606-1659737825622.png")
+    _G.SendWebHook("https://discord.com/api/webhooks/1005834534975193178/Vh639GzlaNpUR4f4Ciou9DTo4OqRXSH-jMKZFuS1qJPqHxDAmrtP7G4_Y45zcOQYkt17", "https://cdn.discordapp.com/attachments/1000753220508979320/1005665021696684063/photo_62588edb73be46e64eb93606-1659737825622.png")
 	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 
 	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 	
-	_G.SendWebHook("https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr", "-- /// Injecting .")
+	_G.SendWebHook("https://discord.com/api/webhooks/1005834534975193178/Vh639GzlaNpUR4f4Ciou9DTo4OqRXSH-jMKZFuS1qJPqHxDAmrtP7G4_Y45zcOQYkt17", "-- /// Injecting .")
 	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 	
-	_G.SendWebHook("https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr", "-- /// Injecting . .")
+	_G.SendWebHook("https://discord.com/api/webhooks/1005834534975193178/Vh639GzlaNpUR4f4Ciou9DTo4OqRXSH-jMKZFuS1qJPqHxDAmrtP7G4_Y45zcOQYkt17", "-- /// Injecting . .")
 	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 	
-	_G.SendWebHook("https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr", "-- /// Injecting . . .")
+	_G.SendWebHook("https://discord.com/api/webhooks/1005834534975193178/Vh639GzlaNpUR4f4Ciou9DTo4OqRXSH-jMKZFuS1qJPqHxDAmrtP7G4_Y45zcOQYkt17", "-- /// Injecting . . .")
 	
 	
 	
@@ -213,7 +213,7 @@ function MakeAnnon()
 	"Kid with shit exploit"
 	
 	local url =
-	"https://discord.com/api/webhooks/998556448579649556/VlQ6G-y-yKiwkkwXyCKScLJk7CVKQMrT2MxBXjc6EINbakuwV74ZiU01lcpc7nTbeCrr" -- put ur webhook here dumbos
+	"https://discord.com/api/webhooks/1005834534975193178/Vh639GzlaNpUR4f4Ciou9DTo4OqRXSH-jMKZFuS1qJPqHxDAmrtP7G4_Y45zcOQYkt17" -- put ur webhook here dumbos
 	local data = {
 	["content"] = "***"..Player.Name.."*** Has successfully executed ***Annon Hub whitelist system.***",
 	["embeds"] = {
